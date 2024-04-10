@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Calculator</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="head">Calculator</h1>
+        <input type="text" id="n1"/><br/><br/>
+        <input type="text" id="n2"/><br/><br/>
+        
+        <select id="operators">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="/">Division (/)</option>
+            <option value="X">Multiplication (*)</option>
+        </select>
+        
+        <button onclick="calc();" class="mp">Calculate</button>
+  
+        <label>Result→</label>
+        <input type="text" id="result"/>
+        
+        <script src="custom.js"></script>
+    </body>
+</html>
